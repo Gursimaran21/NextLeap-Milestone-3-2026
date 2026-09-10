@@ -27,3 +27,5 @@ To do this, make use of:
 2. Wireframing tools (Whimsical, Figma, Figjam).
 
 You have to submit a 3-pager document as per this template and an AI assisted prototype.
+
+## **Click on** **[Task 1](withcgptwebsearchone.md)**
