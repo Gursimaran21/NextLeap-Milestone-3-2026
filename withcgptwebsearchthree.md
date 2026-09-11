@@ -72,4 +72,191 @@ ChatGPT already supports Voice conversations and Study Mode, including interacti
                                  ▼
                        Progress / next task
 
-**1. Discovery: Give Voice a job to do**
+#### 1. Discovery: Give Voice a job to do
+
+**Current mental model**
+
+The user sees:
+
+🎙️ microphone
+
+and thinks:
+
+**"That's voice input."**
+
+That's not enough to change behavior.
+
+**Proposed experience**
+
+Instead, surface a contextual prompt:
+
+🎙️ **Study with Voice**
+
+Talk through your doubts instead of typing them.
+
+Possible entry points:
+
+- Study Mode
+- Home screen
+- Student-related prompts
+- After repeated typed learning queries
+- When the user is typing several follow-up questions
+
+The goal is to communicate:
+
+**Voice = learning interaction**
+
+rather than:
+
+**Voice = alternative keyboard**
+
+#### 2. First-time activation
+
+Student taps:
+
+🎙️ **Study with Voice**
+
+Instead of immediately recording, ChatGPT explains the benefit:
+
+**"Talk naturally. I'll ask questions, explain concepts, and help you practice."**
+
+Then:
+
+**[Start Voice]**
+
+This reduces uncertainty about what will happen.
+
+OpenAI's Voice experience already supports natural back-and-forth conversations, while Study Mode is designed to guide users through concepts using questions and iterative learning.
+
+#### 3. User speaks naturally
+
+Student:
+
+**"I have an exam tomorrow and I don't understand probability."**
+
+Important:
+
+**Don't require the user to formulate a perfect prompt.**
+
+The system should interpret the intent and take over the structure.
+
+ChatGPT:
+
+**"No problem. Let's start with the basics. Before I explain probability, what do you already know about it?"**
+
+This changes the interaction from:
+
+**User drives everything**
+
+to:
+
+**User + AI collaborate.**
+
+#### 4. Conversational learning loop
+
+The core loop becomes:
+
+🎙️ **Speak**
+
+↓
+
+🧠 **Understand**
+
+↓
+
+💬 **Explain**
+
+↓
+
+❓ **Ask**
+
+↓
+
+🎙️ **Listen**
+
+↓
+
+🧠 **Evaluate**
+
+↓
+
+🎯 **Adapt**
+
+For example:
+
+**ChatGPT:**
+"What's the difference between independent and dependent events?"
+
+**Student:**
+"Independent means one event doesn't affect the other."
+
+**ChatGPT:**
+"Exactly. Let's test that with an example..."
+
+This is where Voice becomes **meaningfully different from typing.**
+
+#### 5. Handle Indian language naturally
+
+The student shouldn't have to think:
+
+"Should I use English?"
+
+They can say:
+
+**"Explain this thoda simple way mein."**
+
+or:
+
+**"Hindi mein samjhao, but technical terms English mein rakho."**
+
+The product should preserve the user's chosen language style across the conversation.
+
+#### 6. Handle uncertainty instead of failing silently
+
+Suppose Voice isn't sure what the student said.
+
+**Current-feeling experience**
+
+Misunderstanding → wrong response → user gets frustrated.
+
+**Proposed experience**
+
+**"I may have misheard one part. Did you say Bayes' theorem?"**
+
+**[Yes] [Correct]**
+
+This is important because it builds:
+
+**Trust → recovery → continued conversation**
+
+rather than:
+
+**Error → abandonment**
+
+#### 7. Give the user control
+
+At any point:
+
+🎙️ **Voice**
+
+or
+
+⌨️ **Type**
+
+The conversation continues seamlessly.
+
+For example:
+
+Student is in a hostel:
+
+🎙️ "Explain..."
+
+Roommate enters.
+
+Student taps:
+
+⌨️ **Continue by typing**
+
+The conversation doesn't restart.
+
+ChatGPT's current Voice experience already supports switching between Voice and typing, providing a foundation for this interaction.
