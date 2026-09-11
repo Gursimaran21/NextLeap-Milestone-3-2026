@@ -422,3 +422,5 @@ This is where you show your manager that you understand **trade-offs.**
 **Feature breadth vs learning:** Focus MVP on 2–3 high-frequency learning jobs.
 
 **Activation vs retention:** Optimize for repeat Voice usage rather than microphone clicks.
+
+## Go back to [README](README.md)
