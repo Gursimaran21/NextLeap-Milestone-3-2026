@@ -230,10 +230,15 @@ That creates a potential **habit loop.**
 To control scope:
 
 ❌ New Voice engine
+
 ❌ Dozens of regional-language features
+
 ❌ Hardware/headphone integrations
+
 ❌ Complex privacy controls
+
 ❌ Full education platform
+
 ❌ New AI tutor model
 
 Instead:
@@ -338,3 +343,5 @@ The solution can then use the other two directions as **enablers:**
 **A trusted conversational learning experience**
 
 This is a much stronger PM story than simply proposing **“improve Voice accuracy.”** OpenAI's existing Study Mode and Voice capabilities make this direction particularly feasible to test incrementally.
+
+## Go back to [README](README.md) **or** **Click on** **[Task 3](withcgptwebsearchthree.md)**
