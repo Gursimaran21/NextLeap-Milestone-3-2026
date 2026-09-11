@@ -238,3 +238,187 @@ Then:
 **Shared environments**
 
 → Social/privacy barrier
+
+**PAGE 3 - WHAT ARE WE BUILDING?**
+
+This is the most important page.
+
+Your template specifically asks for **Solution + User Flow/Wireframes + Key Features + Key Logic**, followed by launch readiness and open decisions.
+
+**9. Solution**
+    
+**Voice-first Learning Coach**
+
+**One-line solution**
+
+**Transform Voice from a speech-input feature into a conversational learning experience where students can speak naturally, receive guided explanations, practice concepts, and switch seamlessly between Voice and text.**
+
+OpenAI's existing Study Mode already supports Socratic questioning, step-by-step explanations, knowledge checks, and study materials, making it a natural foundation for this concept rather than requiring a completely separate learning product.
+
+**10. Proposed User Flow**
+
+Put your annotated wireframe here.
+
+**Flow**
+
+<img width="320" height="546" alt="Screenshot 2026-09-11 141838" src="https://github.com/user-attachments/assets/7e64c2ed-a8a9-4748-a3f0-aad1bd0086bb" />
+
+**Critical UX principle**
+
+**Don't ask users to discover Voice. Give them a reason to use Voice.**
+
+This aligns well with OpenAI's current guidance that Voice can be useful when talking through a problem is easier than first creating a polished prompt.
+
+**11. Key Features**
+
+Keep this to **5 features maximum.**
+
+**P0 - Study with Voice**
+
+A contextual entry point into learning-focused Voice.
+
+**P0 - Conversational Tutor**
+
+**Explain → Ask → Listen → Adapt**
+
+The AI guides rather than simply answers.
+
+**P0 - Voice ↔ Text**
+
+Students can switch modes without losing context.
+
+**P1 - Language-flexible Voice**
+
+Support natural English/Hindi/Hinglish interaction.
+
+**P1 - Practice Loop**
+
+End sessions with:
+
+**Quiz / Practice / Continue learning**
+
+**12. Key Logic**
+
+Your manager's template asks about algorithm/schema/data changes.
+
+Don't invent complicated backend architecture.
+
+Write:
+
+**Conversation state**
+
+Maintain:
+
+- Learning objective
+- Student's knowledge level
+- Current topic
+- Misconceptions
+- Questions already answered
+- Preferred interaction mode
+
+**Voice confidence**
+
+If speech recognition confidence is low:
+
+**Ask → Confirm → Continue**
+
+instead of generating a potentially incorrect answer.
+
+**Mode switching**
+
+Maintain the same conversation context across:
+
+**Voice ↔ Text**
+
+**Learning state**
+
+After each session, capture:
+
+Topic → Progress → Knowledge gap → Recommended next action
+
+**13. Launch Readiness**
+
+Keep this practical.
+
+| Phase    | Deliverable                     |
+| -------- | ------------------------------- |
+| Week 1   | Finalize UX + experiment design |
+| Week 2   | Prototype                       |
+| Week 3–4 | MVP development                 |
+| Week 5   | Internal dogfooding             |
+| Week 6   | QA + instrumentation            |
+| Week 7   | Limited experiment              |
+| Week 8   | Evaluate results                |
+
+You can change these timelines based on your actual team.
+
+**14. Experimentation Plan**
+
+This should be very clear.
+
+**A/B test**
+
+**Control**
+
+Existing ChatGPT Voice / Study Mode experience
+
+**Treatment**
+
+Voice-first Learning Coach
+
+**Primary metric**
+
+**7-day repeat Voice learning rate**
+
+**Secondary metrics**
+
+- Voice activation
+- Successful Voice session
+- Session completion
+- Speech-understanding confidence
+- Learning-task completion
+- 30-day Voice retention
+
+**Guardrails**
+
+- Voice error rate
+- Session abandonment
+- Latency
+- Negative feedback
+- Cost/session
+
+**15. Open Questions & Decisions**
+
+This is where you show your manager that you understand **trade-offs.**
+
+**Decisions already made**
+
+✅ Target segment: Indian students 
+
+✅ Primary solution: Voice-first Learning Coach
+
+✅ North Star: Weekly Repeat Voice Learning Users
+
+✅ MVP scope: Learning use cases
+
+**Open questions**
+
+**1. Should the first experience be inside Study Mode or a new entry point?**
+
+**2. Should we launch English + Hinglish first or include regional languages?**
+
+**3. How much Voice accuracy improvement is required before launch?**
+
+**4. Should Voice sessions automatically switch to text in low-privacy contexts?**
+
+**5. Should learning progress persist between Voice sessions?**
+
+**Trade-offs**
+
+**Scope vs coverage:** Start with students rather than solving Voice for all Indian users.
+
+**Accuracy vs speed:** Use existing Voice infrastructure rather than rebuilding ASR.
+
+**Feature breadth vs learning:** Focus MVP on 2–3 high-frequency learning jobs.
+
+**Activation vs retention:** Optimize for repeat Voice usage rather than microphone clicks.
