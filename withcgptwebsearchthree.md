@@ -308,19 +308,32 @@ This creates a natural next action.
 After several successful sessions:
 
 Need to learn something
+
         ↓
+
 Open ChatGPT
+
         ↓
 "Study with Voice"
+
         ↓
+        
 Talk naturally
+
         ↓
+        
 Get personalized explanation
+
         ↓
+        
 Practice
+
         ↓
+        
 Feel progress
+
         ↓
+        
 Return next time
 
 The key behavioral change is:
