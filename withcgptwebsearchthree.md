@@ -260,3 +260,65 @@ Student taps:
 The conversation doesn't restart.
 
 ChatGPT's current Voice experience already supports switching between Voice and typing, providing a foundation for this interaction.
+
+#### 8. Multimodal learning
+
+This is especially important for students.
+
+Student uploads:
+
+📄 PDF
+📸 Screenshot
+📝 Question paper
+
+Then says:
+
+**"Explain question 4 to me."**
+
+ChatGPT:
+
+"Sure. Let's look at question 4. First, what do you think the answer might be?"
+
+Now Voice isn't competing with multimodal ChatGPT.
+
+It's **the conversational layer on top of it.**
+
+#### 9. End with a learning action
+
+Don't simply end:
+
+**"Anything else?"**
+
+Instead:
+
+**You've understood the basics. What next?**
+
+🎯 **Take a 5-question quiz**
+
+🔄 **Explain another example**
+
+🗣️ **Practice explaining it yourself**
+
+📚 **Continue this chapter**
+
+This creates a natural next action.
+
+#### 10. Create the habit loop
+
+After several successful sessions:
+
+Need to learn something
+        ↓
+Open ChatGPT
+        ↓
+"Study with Voice"
+        ↓
+Talk naturally
+        ↓
+Get personalized explanation
+        ↓
+Practice
+        ↓
+Feel progress
+        ↓
+Return next time
