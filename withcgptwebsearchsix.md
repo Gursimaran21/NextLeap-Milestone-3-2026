@@ -188,3 +188,53 @@ Use **3 lightweight personas:**
 | **Exam Prepper**     | Understand/revise concepts quickly | Accuracy + control          |
 | **Concept Explorer** | Ask follow-up questions            | Doesn't see Voice advantage |
 | **Language Learner** | Practice speaking                  | Accent/language confidence  |
+
+**8. Current User Journey**
+
+Show this visually:
+
+Student has a doubt
+
+        ↓
+        
+Opens ChatGPT
+
+        ↓
+        
+Formulates prompt
+
+        ↓
+        
+Types
+
+        ↓
+        
+Reads answer
+
+        ↓
+        
+Types follow-up
+
+        ↓
+        
+Repeats
+
+Then:
+
+**Pain points**
+
+**Formulating prompts**
+
+→ Cognitive effort
+
+**Typing multiple follow-ups**
+
+→ Slow
+
+**Voice**
+
+→ Available, but uncertain
+
+**Shared environments**
+
+→ Social/privacy barrier
