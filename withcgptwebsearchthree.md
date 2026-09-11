@@ -322,3 +322,91 @@ Practice
 Feel progress
         ↓
 Return next time
+
+The key behavioral change is:
+
+**Before**
+
+**"I need to type something into ChatGPT."**
+
+**After**
+
+**"I'll talk to ChatGPT about this."**
+
+**Current vs Proposed User Flow**
+
+| Stage          | Current experience        | Proposed experience                       |
+| -------------- | ------------------------- | ----------------------------------------- |
+| **Discovery**  | See microphone            | See **Study with Voice**                  |
+| **Motivation** | "Input by voice"          | "Learn through conversation"              |
+| **Starting**   | Start speaking            | AI explains what it can do                |
+| **Prompting**  | User formulates question  | User speaks naturally                     |
+| **Learning**   | Ask → answer              | **Explain → ask → listen → adapt**        |
+| **Language**   | User may adapt speech     | Natural multilingual/code-switched speech |
+| **Error**      | Repeat/restart            | AI asks for clarification                 |
+| **Privacy**    | Voice or nothing          | Seamless Voice ↔ Text                     |
+| **Materials**  | Voice separate from files | Voice + PDF/image/context                 |
+| **End**        | Conversation ends         | Quiz/practice/next learning action        |
+| **Habit**      | Occasional Voice          | **Repeat Voice learning sessions**        |
+
+🎯 **The "Aha" moment**
+
+The most important moment in the flow is:
+
+**Student realizes they don't have to formulate a perfect prompt.**
+
+They can simply say:
+
+"I don't understand this."
+
+And ChatGPT takes responsibility for guiding the conversation.
+
+That's the point where Voice changes from an **input feature** into an **interaction model.**
+
+**Final user journey**
+
+**Discover**
+
+🎙️ Study with Voice
+
+↓
+
+**Try**
+
+"I don't understand this concept."
+
+↓
+
+**Trust**
+
+ChatGPT understands natural speech / asks for clarification
+
+↓
+
+**Experience value**
+
+Conversational tutoring
+
+↓
+
+**Control**
+
+Voice ↔ Text whenever needed
+
+↓
+
+**Learn**
+
+Explain → Practice → Quiz
+
+↓
+
+**Habit**
+
+**"Next time, I'll just talk to ChatGPT."**
+
+**Product principle**
+
+**Make Voice discoverable through its value, not through its existence.**
+
+That is the core UX change I'd propose for the MVP.
